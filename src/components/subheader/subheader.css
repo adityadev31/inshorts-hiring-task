@@ -1,0 +1,41 @@
+.subheader {
+  width: 100%;
+  padding: 1rem 10vw;
+}
+
+.subheader-box {
+  width: 100%;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  background: linear-gradient(90deg, rgb(0, 85, 255), rgb(0, 170, 255), rgb(0, 255, 119));
+  color: rgba(255, 255, 255, 0.889);
+  font-family: var(--font-3);
+  font-size: 2rem;
+  border: 5px solid orange;
+}
+
+.subheader .data-2 {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 770px) {
+  .subheader {
+    text-align: center;
+  }
+  .subheader .data-1 {
+    display: block;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .subheader .data-1 {
+    font-size: 1.8rem;
+  }
+  .subheader .data-2 {
+    font-size: 1.5rem;
+  }
+  .subheader .data-3 {
+    font-size: 1rem;
+  }
+}

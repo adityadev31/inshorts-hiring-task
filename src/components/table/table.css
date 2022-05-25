@@ -1,0 +1,29 @@
+.table-box {
+  width: 100%;
+  padding: 2rem;
+  font-family: var(--font-4);
+  overflow-x: scroll;
+}
+
+.table-box h1 {
+  margin-bottom: 3rem;
+}
+
+.table {
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th {
+  padding: 10px 20px;
+  text-align: center;
+  background-color: rgb(12, 104, 157);
+  color: #fff;
+}
+
+td {
+  padding: 10px 20px;
+}
