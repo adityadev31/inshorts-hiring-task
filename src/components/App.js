@@ -13,7 +13,6 @@ const App = () => {
   const fetchTopData = async () => {
     try {
       const res = await axios.get("https://adi-corona-tracker.herokuapp.com/");
-      console.log(res.data);
       setCoronaData(res.data);
     } catch (err) {
       console.log(err);
@@ -23,6 +22,7 @@ const App = () => {
   useEffect(() => {
     fetchTopData();
   }, [])
+
 
   return (
     <>
